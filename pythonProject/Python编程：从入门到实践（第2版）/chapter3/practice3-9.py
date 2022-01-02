@@ -31,5 +31,5 @@ print(f'Hello {guests[3]} 好久不见！改天共进晚餐啊！')
 print(f'Hello {guests[4]} 好久不见！改天共进晚餐啊！')
 print(f'Hello {guests[5]} 好久不见！改天共进晚餐啊！')
 
-#统计人数
-print(len(guests),'人')
+# 统计人数
+print("共计：", len(guests), '人')

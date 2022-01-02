@@ -32,7 +32,7 @@ print(f'Hello {guests[4]} 好久不见！改天共进晚餐啊！')
 print(f'Hello {guests[5]} 好久不见！改天共进晚餐啊！')
 
 print('非常抱歉！由于餐桌没到，只能两位共进晚餐！')
-podded1=guests.pop()
+podded1=guests.pop()  # 弹出最后一个
 print(f'{podded1},非常不好意思，由于新餐桌没到，所以不能邀请您共进晚餐了！')
 podded2=guests.pop(-2)
 print(f'{podded2},非常不好意思，由于新餐桌没到，所以不能邀请您共进晚餐了！')
@@ -48,4 +48,4 @@ print(f'Hello {guests[1]} 好久不见！改天共进晚餐啊！')
 print('删除两位嘉宾')
 del guests[0]
 del guests[0]
-print(guests) #核实是否为空
+print(guests)  # 核实是否为空

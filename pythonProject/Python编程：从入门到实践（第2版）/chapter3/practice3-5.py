@@ -14,6 +14,6 @@ guests[-1]='小江' #邀请小江来替换小乐
 print(f'Hello {guests[2]} 好久不见！改天共进晚餐啊！')
 
 #或者以下方式替换
-del guests[2]
+del guests[2]  # del删除
 guests.insert(2,'小江')
 print(f'Hello {guests[2]} 好久不见！改天共进晚餐啊！')
